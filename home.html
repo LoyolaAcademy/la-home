@@ -40,7 +40,50 @@
         }
     </style>
 </head>
+    
+ 
+         video {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            z-index: -1;
+        }
 
+        .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <video autoplay muted loop>
+        <source src="https://v.ftcdn.net/06/94/64/43/700_F_694644336_JiVwI0XVMA3ieLrkVLKVQr0BNdNOEBQX_ST.mp4" type="video/mp4">
+    </video>
+
+    <div class="content">
+        <h1>Your Video Background Website</h1>
+        <p>Explore, Learn, Connect</p>
+    </div>
 <body>
 
     <header>
