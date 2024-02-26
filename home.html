@@ -32,7 +32,7 @@
             
         }
         img{
-            border-radius: 50%;
+            border-radius: 20%;
 }
         
         footer {
@@ -54,6 +54,9 @@ max-height: 50%;
 object-fit: cover;
 border-radius: 10px;
 
+}
+        .special-image {
+    border-radius: 50%;
 }
         .btn {
   background-color: white;
@@ -113,8 +116,8 @@ border-radius: 50%;
 
     <section>
         <h1 align="Center">Welcome to <b>Loyola for Leaf</b>!</h1> <marquee><p align="center">- Discovering the world of Tree's</p></marquee><br>
-            <div class="circle" align="center" style="text-align: "center""> <img1 src="https://imgs.search.brave.com/VrnXk1pCYh3GbRQDTm-iEDHCJ8KACtypCyyk90AyEag/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb3lv/bGFhY2FkZW15LmVk/dS5pbi93cC1jb250/ZW50L3RoZW1lcy9s/b2NhbGhvc3QvYXNz/ZXRzL2ltYWdlcy9p/bWcvRnIuTC5Kb2pp/UmVkZHktUHJpbmNp/cGFsLmpwZw" height=100px width=100px> 
-                
+            <div class="circle" align="center" style="text-align: "center""> <img src="https://imgs.search.brave.com/VrnXk1pCYh3GbRQDTm-iEDHCJ8KACtypCyyk90AyEag/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9sb3lv/bGFhY2FkZW15LmVk/dS5pbi93cC1jb250/ZW50L3RoZW1lcy9s/b2NhbGhvc3QvYXNz/ZXRzL2ltYWdlcy9p/bWcvRnIuTC5Kb2pp/UmVkZHktUHJpbmNp/cGFsLmpwZw" height=100px width=100px> 
+                <img class="special-image" src="../Members/<?php echo  $row['post_user_id']?>.jpg" border="none" width="40" height="30"></img>
             </div>
        <br>
         </br>
